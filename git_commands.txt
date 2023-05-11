@@ -4,7 +4,9 @@ git init
 
 git status
 
-git add .
+git add . 
+
+git add file_name
 
 git config user.name "user_name"
 
@@ -31,4 +33,3 @@ git stash list
 git stash pop
 
 git log
-

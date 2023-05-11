@@ -5,7 +5,7 @@ git init
 git status
 
 git add . 
-
+(or)
 git add file_name
 
 git config user.name "user_name"
@@ -33,3 +33,11 @@ git stash list
 git stash pop
 
 git log
+
+git tag -a <tag_name> <commit_hash> -m "commit_msg"
+(or)
+git tag <tag_name> <commit_hash>
+
+git push origin <tag_name>
+(or)
+git push origin --tag(to push all tags)
